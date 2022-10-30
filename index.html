@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body>
+
+    <main class="wrapper">
+        <form>
+            <fieldset>
+              <legend>Zgłoszenie na szkolenia i kursy</legend>
+              <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Imię i nazwisko uczestnika:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Wpisz imię i nazwisko">
+              </div>
+              <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Kursy i szkolenia:</label>
+                <select id="disabledSelect" class="form-select">
+                  <option>Wybierz kurs</option>
+                  <option value="">Administracja</option>
+                  <option value="">Programowanie</option>
+                  <option value="">Język angielski</option>
+                  <option value="">Język niemiecki</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                    Potwierdzam zapoznanie się z regulaminem
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-success">Wyślij zgłoszenie</button>
+            </fieldset>
+          </form>
+    </main>
+
+   
+  
+</body>
+</html>
